@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    h1{
+        font-size: 4em;
+        font-family: 'Abril Fatface',sans-serif;
+        letter-spacing: 5px
+    }
+}
+
+@media only screen and (max-width:440px){
+    .flex h1{
+        font-size: 2.5em
+    }
+}

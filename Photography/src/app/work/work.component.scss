@@ -1,0 +1,21 @@
+.work{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    grid-gap: 1em;
+    img{
+        width: 100%;
+        transition: all 0.4s ease;
+    }
+}
+h2{
+    font-size: 2em;
+    font-family: 'Vollkorn',sans-serif;
+    text-align: center
+}
+
+.work img:hover{
+    opacity: 0.5;
+}
